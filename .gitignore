@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# Ignore virtual environments
+venv/
+env/
+*.venv/
+**/visa_scraper_venv/
+

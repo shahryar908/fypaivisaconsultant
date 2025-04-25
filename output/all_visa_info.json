@@ -1,0 +1,28 @@
+[
+  {
+    "country": "Germany",
+    "visa_type": "Student Visa (Visum zu Studienzwecken)",
+    "requirements": [
+      "Valid passport",
+      "Completed and signed application form",
+      "Recent passport photo",
+      "Letter of admission from a German university",
+      "Proof of financial resources (e.g., blocked account, scholarship, or sponsor's declaration)",
+      "Language proficiency proof (German or English)",
+      "Health insurance",
+      "Any other documents required by the embassy or consulate"
+    ],
+    "processing_time": "6-8 weeks",
+    "validity": "Duration of the course, up to 2 years",
+    "fees": "€75 (may vary depending on the embassy or consulate)",
+    "entry_type": "Multiple-entry",
+    "allowed_stay": "Duration of the course",
+    "embassy_link": null,
+    "notes": [
+      "Students are allowed to work part-time during their studies (up to 20 hours per week)",
+      "After completing studies, students can apply for a job seeker visa",
+      "Must register with the local authorities in Germany within 2 weeks of arrival",
+      "Must apply for a residence permit within 2 weeks of arrival"
+    ]
+  }
+]
