@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# FYP AI Visa Consultant
 
-First, run the development server:
+Welcome to the **FYP AI Visa Consultant** project! This repository hosts the source code for an AI-powered visa consultation platform. The platform leverages cutting-edge technologies to provide intelligent advice and support for visa applicants.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of Contents
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [About the Project](#about-the-project)
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+  - [Frontend Setup](#frontend-setup)
+  - [Backend Setup](#backend-setup)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## About the Project
 
-To learn more about Next.js, take a look at the following resources:
+The **FYP AI Visa Consultant** is designed to assist users in navigating the complex process of visa applications. By analyzing user inputs, the platform provides tailored recommendations and resources to help individuals complete their visa applications efficiently.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project showcases expertise in AI, web development, and backend system design as part of a Final Year Project (FYP).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Key Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **AI-Powered Guidance**: Offers intelligent recommendations for visa applicants.
+- **Multi-Language Codebase**: Combines a TypeScript frontend with a Python-powered backend.
+- **Scalable Design**: Built with modularity and scalability for future enhancements.
+- **User-Friendly Interface**: Simplified workflows for easy navigation.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Technologies Used
+
+- **TypeScript (84.2%)**: Frontend and core web application logic.
+- **Python (14.5%)**: Backend logic and AI/machine learning components.
+- **Other (1.3%)**: Tools and configurations for project management.
+
+---
+
+## Installation
+
+### Prerequisites
+
+- **Node.js** (Version >=14): Install from [Node.js Official Website](https://nodejs.org/).
+- **Python** (Version >=3.8): Install from [Python Official Website](https://www.python.org/).
+- **npm** or **Yarn**: Comes with Node.js, or install Yarn as an alternative.
+- **pip**: Comes with Python, used for package installations.
+
+---
+
+### Frontend Setup
+
+1. Clone the repository and navigate to the project directory:
+   ```bash
+   git clone https://github.com/shahryar908/fypaivisaconsultant.git
+   cd fypaivisaconsultant
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Access the application in your browser at `http://localhost:3000`.
+
+---
+
+### Backend Setup
+
+1. Navigate to the backend directory:
+   ```bash
+   cd fypaivisaconsultant
+   cd backend
+   ```
+
+2. run
+ '''bash
+npx ts-node index.ts
+
+'''
+
+5. The backend server should now be running on `http://localhost:5000`.
+and please make sure that your backend dependencies installed as it is in typescript backend
+---
+
+## Usage
+
+1. Start both the frontend and backend servers.
+2. Open your browser and navigate to the frontend (usually `http://localhost:3000`).
+3. Use the interface to input your visa details and get AI-powered recommendations.
+
+---
+
+## Contributing
+
+Contributions are welcome! Follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature-name"
+   ```
+4. Push to your forked repository and create a pull request.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Feel free to let me know if you need further modifications or additional sections!
