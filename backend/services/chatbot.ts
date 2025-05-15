@@ -19,7 +19,7 @@ export async function generateChatResponse(message: string): Promise<string> {
       ],
       model: "llama-3.3-70b-versatile",
       temperature: 0.6,
-      max_tokens: 500
+      max_tokens: 1000
     });
     
     return completion.choices[0].message.content || 

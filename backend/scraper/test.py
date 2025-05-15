@@ -1,7 +1,7 @@
 import sqlite3
 
 # Connect to the SQLite database
-conn = sqlite3.connect('../visa_info.db')
+conn = sqlite3.connect(r"C:\Users\User\fypaivisaconsultant\visa_info.db")
 cursor = conn.cursor()
 
 # Fetch all rows from the 'visa_info' table

@@ -21,84 +21,80 @@ class VisaInfo(BaseModel):
     embassy_link: str
     notes: str
 
-# Create instances of VisaInfo for Lithuania
+# Create instances of VisaInfo for Hungary
 visa_data = [
     VisaInfo(
-        country="Lithuania",
+        country="Hungary",
         visa_type="Student",
         requirements=[
-            "Completed and signed national visa application form (Type D).",
-            "Valid passport (issued within the last 10 years, valid for at least 3 months after planned departure).",
-            "One recent passport-sized photo (35x45 mm, white background, taken within the last 6 months).",
-            "Acceptance letter from a recognized Lithuanian higher education institution or exchange program.",
-            "Proof of language proficiency (English: IELTS 6.0, TOEFL iBT 80; or Lithuanian proficiency if required by program).",
-            "Academic certificates and transcripts (translated into English or Lithuanian, certified if required).",
-            "Proof of financial resources (minimum €150/month or €1,800/year as of 2025, via bank statements, scholarship, or sponsor letter).",
-            "Proof of accommodation in Lithuania (rental agreement, dormitory confirmation, or host letter).",
-            "Health insurance (minimum coverage €30,000, valid in Lithuania and Schengen area for initial stay).",
-            "Curriculum Vitae (CV) detailing educational background.",
-            "Motivation letter explaining study plans and goals in Lithuania.",
-            "Proof of visa fee payment.",
-            "Declaration of accuracy of provided information.",
-            "Criminal record certificate (if requested by consulate, typically for long-term stays)."
+            "Completed and signed application form for residence permit or Type D visa.",
+            "Valid passport (issued within the last 10 years, valid for at least 3 months after planned departure, with 2 blank pages).",
+            "Two recent passport-sized photos (35x45 mm, white background, taken within the last 6 months).",
+            "Acceptance letter from a recognized Hungarian higher education institution (full-time program).",
+            "Proof of sufficient funds (approx. €700/month in 2025, via bank statements, scholarship, or sponsor letter).",
+            "Comprehensive health insurance (covering medical care, valid in Hungary for the entire stay).",
+            "Proof of paid tuition fees (if applicable) or scholarship confirmation.",
+            "Proof of accommodation in Hungary (rental agreement, dormitory confirmation, or host letter).",
+            "Academic transcripts and certificates (translated into English or Hungarian, certified if required).",
+            "Proof of language proficiency (if required by the program, e.g., English: IELTS 6.0, TOEFL iBT 80).",
+            "Proof of application fee payment.",
+            "Declaration of accuracy of provided information."
         ],
-        processing_time="2–6 weeks, depending on the consulate and application complexity. Apply at least 2 months before program start.",
-        validity="Up to 1 year initially; convertible to a temporary residence permit for the duration of studies.",
-        fees="€120 for Visa D; €120 for temporary residence permit (if required).",
-        entry_type="Multiple entry (allows travel within Schengen area during validity).",
-        allowed_stay="Duration of the study program (typically 1–2 years, extendable up to 7 years for full degree programs).",
-        embassy_link="https://www.migracija.lt/en",
+        processing_time="1–2 months, depending on the Hungarian consulate and completeness of application. Apply at least 3 months before program start.",
+        validity="Up to 1 year initially; renewable annually for the duration of studies.",
+        fees="€60 for Type D visa; €110 for residence permit application (approx. HUF 44,000 in 2025).",
+        entry_type="Single entry (Type D visa); convertible to multiple-entry residence permit after arrival.",
+        allowed_stay="Duration of the study program, typically 1–4 years, renewable annually.",
+        embassy_link="https://www.enterhungary.gov.hu",
         notes=(
-            "Non-EU students can work up to 20 hours/week during term-time and full-time during holidays without a work permit. "
-            "Register with the Migration Department within 3 months of arrival to obtain a temporary residence permit if staying over 90 days. "
-            "A temporary residence permit for job seeking (up to 12 months) is available after graduation. "
-            "Apply through the Lithuanian Migration Information System (MIGRIS) for residence permits. "
-            "EU/EEA students only need a certificate from the Ministry of the Interior for stays over 3 months."
+            "Non-EU/EEA students can work up to 24 hours/week during term-time and full-time (up to 90 days or 66 workdays) during holidays. "
+            "Apply for a residence permit within 15 days of arrival in Hungary via the National Directorate-General for Aliens Policing (NDGAP). "
+            "A 'study-to-work' residence permit (9 months) is available after graduation to seek employment or start a business. "
+            "EU/EEA students need only register with the immigration office within 90 days for stays over 3 months. "
+            "Visa-free nationals must still apply for a residence permit within 30 days of arrival."
         )
     ),
     VisaInfo(
-        country="Lithuania",
+        country="Hungary",
         visa_type="Work",
         requirements=[
-            "Completed and signed national visa application form (Type D).",
-            "Valid passport (issued within the last 10 years, valid for at least 3 months after planned departure).",
-            "One recent passport-sized photo (35x45 mm, white background, taken within the last 6 months).",
-            "Work permit issued by the Lithuanian Labour Exchange or a binding job offer (for permit-exempt categories).",
-            "Employment contract or letter of intent from a Lithuanian employer, specifying position and salary.",
-            "Proof of qualifications (university degree, vocational certificates, or professional licenses, translated into Lithuanian or English).",
-            "Proof of financial resources (minimum €1,038/month as of 2025, via bank statements or employer guarantee).",
-            "Proof of accommodation in Lithuania (rental agreement, employer-provided housing, or host letter).",
-            "Health insurance (minimum coverage €30,000, valid in Lithuania for initial stay, later social insurance enrollment).",
-            "Curriculum Vitae (CV) detailing professional experience and skills.",
-            "Proof of visa fee payment.",
-            "Declaration of accuracy of provided information.",
-            "Criminal record certificate (if requested by consulate, typically for regulated professions)."
+            "Completed and signed application form for residence permit or Type D visa.",
+            "Valid passport (issued within the last 10 years, valid for at least 3 months after planned departure, with 2 blank pages).",
+            "Two recent passport-sized photos (35x45 mm, white background, taken within the last 6 months).",
+            "Signed employment contract or binding job offer from a Hungarian employer (specifying position, salary, and conditions).",
+            "Proof of qualifications (university degree, vocational certificates, or professional experience, translated into English or Hungarian).",
+            "Workforce Needs Registration Form issued by Hungarian authorities (if required, confirming labor market test).",
+            "Proof of sufficient funds (approx. €1,000/month in 2025, unless covered by salary).",
+            "Comprehensive health insurance (valid in Hungary until social insurance enrollment).",
+            "Proof of accommodation in Hungary (rental agreement, employer-provided housing, or host letter).",
+            "Proof of application fee payment.",
+            "Declaration of accuracy of provided information."
         ],
-        processing_time="2–6 weeks, depending on the consulate and work permit processing time.",
-        validity="Up to 1 year initially; extendable via a temporary residence permit for up to 2 years (3 years for Blue Card holders).",
-        fees="€120 for Visa D; €120 for temporary residence permit (if required).",
-        entry_type="Multiple entry (allows travel within Schengen area during validity).",
-        allowed_stay="Duration of the work contract, typically 1–2 years, extendable with a residence permit.",
-        embassy_link="https://www.migracija.lt/en",
+        processing_time="1–3 months, depending on the Hungarian consulate and labor market test requirements.",
+        validity="Up to 1 year initially; renewable for up to 3 years (4 years for EU Blue Card).",
+        fees="€60 for Type D visa; €110 for residence permit application (approx. HUF 44,000 in 2025).",
+        entry_type="Single entry (Type D visa); convertible to multiple-entry residence permit after arrival.",
+        allowed_stay="Duration of the work contract, typically 1–3 years, renewable.",
+        embassy_link="https://www.enterhungary.gov.hu",
         notes=(
-            "Work visas are tied to a specific employer; changing employers requires a new work permit or notification. "
-            "EU Blue Card is available for highly skilled workers with a salary threshold (approx. €27,000/year in 2025). "
-            "Family members of Blue Card holders or researchers can join immediately with residence permits. "
-            "Register with the Migration Department within 3 months of arrival for stays over 90 days. "
-            "A1 certificate required for posted workers from EU/EEA to prove social security coverage."
+            "Work permits are employer-specific for the first 3 years; changing employers requires a new permit. "
+            "EU Blue Card available for highly skilled workers with a minimum salary of HUF 773,649/month (approx. €1,950 in 2025). "
+            "Guest worker permits (for specified employers/occupations) are limited to 3 years, non-extendable, and exclude family reunification. "
+            "Apply for a residence permit within 30 days of arrival via NDGAP. "
+            "Labor market test may apply unless exempt (e.g., highly skilled roles, intra-corporate transfers)."
         )
     ),
     VisaInfo(
-        country="Lithuania",
+        country="Hungary",
         visa_type="Tourist",
         requirements=[
             "Completed and signed Schengen visa application form (Type C).",
-            "Valid passport (issued within the last 10 years, valid for at least 3 months after planned departure).",
-            "One recent passport-sized photo (35x45 mm, white background, taken within the last 6 months).",
-            "Travel itinerary (flight reservations, train tickets, or planned activities in Lithuania).",
-            "Proof of financial means (minimum €40/day as of 2025, via bank statements, credit card, or sponsor letter).",
+            "Valid passport (issued within the last 10 years, valid for at least 3 months after planned departure, with 2 blank pages).",
+            "Two recent passport-sized photos (35x45 mm, white background, taken within the last 6 months).",
+            "Travel itinerary (flight reservations, planned activities, or tour bookings in Hungary).",
+            "Proof of financial means (minimum €50/day in 2025, via bank statements, credit card, or sponsor letter).",
             "Travel health insurance (minimum coverage €30,000, valid across Schengen countries for the entire stay).",
-            "Proof of accommodation (hotel bookings, Airbnb confirmation, or invitation letter from a host in Lithuania).",
+            "Proof of accommodation (hotel bookings, Airbnb confirmation, or invitation letter from a host in Hungary).",
             "Proof of ties to home country (e.g., employment contract, property ownership, family responsibilities).",
             "Proof of visa fee payment.",
             "Declaration of accuracy of provided information.",
@@ -106,37 +102,37 @@ visa_data = [
         ],
         processing_time="15–45 days, up to 60 days in complex cases or high application volume.",
         validity="Up to 90 days within a 180-day period in the Schengen Area.",
-        fees="€80 (reduced to €40 for children aged 6–12; free for children under 6; exemptions for certain students).",
+        fees="€80 (reduced to €35 for certain nationalities; €40 for children aged 6–12; free for children under 6).",
         entry_type="Single, double, or multiple entry, depending on consulate decision and travel history.",
         allowed_stay="Maximum 90 days within 180 days in the Schengen Area.",
-        embassy_link="https://www.migracija.lt/en",
+        embassy_link="https://www.enterhungary.gov.hu",
         notes=(
-            "Overstaying the 90-day limit can result in fines, deportation, or a Schengen entry ban. "
-            "Apply through the Lithuanian consulate or VFS Global if Lithuania is the main destination or first point of entry. "
-            "Visa-free entry for up to 90 days is available for citizens of certain countries (e.g., US, Canada, Australia, Japan). "
-            "ETIAS authorization will be required starting mid-2025 for visa-exempt travelers. "
-            "Submit biometric data (fingerprints) at the consulate or visa center, except for children under 12."
+            "Overstaying the 90-day limit may result in fines, deportation, or a Schengen entry ban. "
+            "Apply through the Hungarian consulate or VFS Global if Hungary is the main destination or first point of entry. "
+            "Visa-free entry for up to 90 days available for citizens of certain countries (e.g., US, Canada, Australia, Japan). "
+            "ETIAS authorization required starting Q4 2026 for visa-exempt travelers. "
+            "Biometric data (fingerprints and photo) required at the consulate, except for children under 12."
         )
     )
 ]
 
 # Connect to SQLite database
 try:
-    conn = sqlite3.connect("../visa_info.db")
+    conn = sqlite3.connect(r"C:\Users\User\fypaivisaconsultant\visa_info.db")
     cursor = conn.cursor()
     logger.info("Successfully connected to visa_info.db")
 except sqlite3.Error as e:
     logger.error(f"Failed to connect to database: {e}")
     raise
 
-# Delete all records for Germany
+# Delete all existing records for Hungary
 try:
-    cursor.execute("DELETE FROM visa_info WHERE country = 'Lithuania'")
+    cursor.execute("DELETE FROM visa_info WHERE country = 'Hungary'")
     deleted_rows = cursor.rowcount
     conn.commit()
-    logger.info(f"Deleted {deleted_rows} records for Lithuania")
+    logger.info(f"Deleted {deleted_rows} records for Hungary")
 except sqlite3.Error as e:
-    logger.error(f"Failed to delete records for Lithuania: {e}")
+    logger.error(f"Failed to delete records for Hungary: {e}")
     conn.close()
     raise
 
@@ -218,21 +214,6 @@ for visa in visa_data:
         logger.error(f"Database error for {visa.visa_type} visa in {visa.country}: {e}")
     except Exception as e:
         logger.error(f"Unexpected error for {visa.visa_type} visa in {visa.country}: {e}")
-
-# Verify all visa types for Germany and Poland
-countries = ["Germany", "Poland"]
-for country in countries:
-    try:
-        cursor.execute('''
-            SELECT visa_type FROM visa_info
-        ''')
-        visa_types = [row[0] for row in cursor.fetchall()]
-        if visa_types:
-            logger.info(f"Visa types for {country}: {', '.join(visa_types)}")
-        else:
-            logger.warning(f"No visa types found for {country}")
-    except sqlite3.Error as e:
-        logger.error(f"Failed to fetch visa types for {country}: {e}")
 
 # Commit and close
 try:

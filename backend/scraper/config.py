@@ -1,8 +1,7 @@
 # config.py
 
 # Base URL for visa information (example using a visa service provider)
-BASE_URL = "https://www.visahq.com/citizens/United-States"
-
+BASE_URL="https://www.gov.pl/web/pakistan-en/d-type-national-visa"
 # CSS selector for visa information containers
 CSS_SELECTOR = ".country-data-container"
 
@@ -20,12 +19,12 @@ REQUIRED_KEYS = [
 
 # List of countries to crawl
 COUNTRIES_TO_CRAWL = [
-    "germany",
+    "poland",
     # Add more countries as needed
 ]
 
 # Optional: Add source websites for different countries
 COUNTRY_SOURCES = {
-    "germany": "https://www.germany-visa.org/student-visa/student-visa-visum-zu-studienzwecken/",
+    "poland": "https://www.gov.pl/web/pakistan-en/d-type-national-visa",
     # Add more specific sources
 }

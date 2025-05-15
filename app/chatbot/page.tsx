@@ -302,14 +302,14 @@ export default function ChatPage() {
       <div className="container mx-auto py-8 px-4">
         <header className="mb-8 text-center">
           <h1 className="text-3xl md:text-4xl font-bold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 dark:from-slate-100 dark:to-slate-300">
-            AI Chat Assistant
+            Visa Chat Assistant
           </h1>
           <p className="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-            Ask questions, get information, and explore ideas with our AI assistant
+            Ask questions, get information, and with our AI assistant
           </p>
         </header>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <Card className="border-0 shadow-lg overflow-hidden mb-0">
             {/* Chat header */}
             <div className="bg-gradient-to-r from-slate-800 to-slate-700 dark:from-slate-800 dark:to-slate-700 text-white p-4 flex justify-between items-center">
@@ -343,7 +343,7 @@ export default function ChatPage() {
 
             {/* Chat messages */}
             <CardContent className="p-0">
-              <div ref={chatContainerRef} className="h-[500px] overflow-y-auto p-4 bg-slate-50 dark:bg-slate-900">
+              <div ref={chatContainerRef} className="h-[350px] overflow-y-auto p-4 bg-slate-50 dark:bg-slate-900">
                 {messages.length === 0 ? (
                   <div className="h-full flex flex-col items-center justify-center">
                     <motion.div
@@ -357,10 +357,10 @@ export default function ChatPage() {
                       </div>
                       <h2 className="text-2xl font-bold mb-4 text-slate-900 dark:text-slate-100">Ask me anything</h2>
                       <p className="text-slate-500 dark:text-slate-400 mb-6">
-                        I'm your AI assistant, ready to help with information, creative tasks, and more.
+                        I'm your AI Visa assistant, ready to help with Information of Visa and Immigration .
                       </p>
                       <div className="flex flex-wrap justify-center gap-2">
-                        {["How does this work?", "Tell me a joke", "What can you do?"].map((suggestion) => (
+                        {["China visa requirement ?", "Please give me Informataion of ", "What is requiremnet of ?"].map((suggestion) => (
                           <Button
                             key={suggestion}
                             variant="outline"

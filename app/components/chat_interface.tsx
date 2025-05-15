@@ -356,6 +356,7 @@ export default function ChatInterface({
                         </>
                       )}
                     </Avatar>
+
                     <div
                       className={`px-4 py-3 rounded-2xl ${
                         message.sender === "user"

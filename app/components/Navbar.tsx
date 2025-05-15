@@ -22,15 +22,15 @@ export default function Navbar() {
               Vizafy
             </span>
           </Link>
-          <div className="grid gap-2 py-6">
+          <div className="grid gap-3 py-6">
             <Link href="/visainfo" className="flex w-full items-center py-2 text-lg font-semibold">
               Visa Information
             </Link>
-            <Link href="/recommendation" className="flex w-full items-center py-2 text-lg font-semibold">
-              Recommendation
+            <Link href="/chatbot" className="flex w-full items-center py-2 text-lg font-semibold">
+              chatbot
             </Link>
-            <Link href="/features" className="flex w-full items-center py-2 text-lg font-semibold">
-              Features
+            <Link href="/recomendation" className="flex w-full items-center py-2 text-lg font-semibold">
+              recomendation
             </Link>
           </div>
         </SheetContent>
@@ -54,13 +54,27 @@ export default function Navbar() {
           href="/chatbot"
           className="text-base font-medium text-slate-700 hover:text-slate-900 dark:text-slate-300 dark:hover:text-slate-100"
         >
-          chatbot
+          ChatBot
         </Link>
         <Link
-          href="/features"
+          href="/recomendation"
           className="text-base font-medium text-slate-700 hover:text-slate-900 dark:text-slate-300 dark:hover:text-slate-100"
         >
-          Features
+          Recommendation
+        </Link>
+         <Link
+          href="/visasuccessprediction"
+          className="text-base font-medium text-slate-700 hover:text-slate-900 dark:text-slate-300 dark:hover:text-slate-100"
+        >
+          Visa success
+
+        </Link>
+        <Link
+          href="/about"
+          className="text-base font-medium text-slate-700 hover:text-slate-900 dark:text-slate-300 dark:hover:text-slate-100"
+        >
+          About
+            
         </Link>
       </nav>
 
